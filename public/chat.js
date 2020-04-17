@@ -1,4 +1,4 @@
-var socket = io.connect("http://localhost:4000");
+var socket = io.connect("https://yazzy-chatty-app.herokuapp.com/");
 
 // Query DOM
  
