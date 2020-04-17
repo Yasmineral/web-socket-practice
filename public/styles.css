@@ -6,11 +6,11 @@ h2 {
 }
 
 body {
-  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #yas-chat {
-  max-width: 60px;
+  max-width: 600px;
   margin: 30px auto;
   border: 1px sold #ddd;
   box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
@@ -55,7 +55,7 @@ input{
   width: 100%;
   background: #fff;
   border-bottom: 1px solid #eee;
-  font-family: Nunito;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
 
