@@ -20,6 +20,7 @@ btn.addEventListener('click', () => {
 // Listen for events
 
 socket.on('chat', (data) => {
+  feedback.innerHTML = ""
   output.innerHTML += "<p><strong>" + data.handle + ": </strong>" + data.message + "</p>"
 })
 
